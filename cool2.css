@@ -1,0 +1,16 @@
+h1{
+    background-color: green;
+}
+
+h2{
+    background-color: red;
+}
+
+h3{
+    background-color: yellow;
+}
+
+ul {
+    background: orange;
+    paddding: 100px;
+}
