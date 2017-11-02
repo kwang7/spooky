@@ -1,16 +1,41 @@
 h1{
-    background-color: green;
+    background-color: #39FF14;
+    letter-spacing: 130px;
 }
 
 h2{
-    background-color: red;
+    background-color: cyan;
 }
 
 h3{
     background-color: yellow;
 }
 
+body{
+    background-color: black;
+    color: black;
+    font-family: Courier New;
+    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+    text-transform: uppercase;
+    background: repeating-linear-gradient(
+			45deg,
+			cyan,
+			cyan 10px,
+			yellow 10px,
+			yellow 20px
+		    );
+}
 ul {
     background: orange;
-    paddding: 100px;
+    color: cyan;
 }
+
+a{
+    font-style: oblique;
+}
+a:hover{
+    color: hotpink;
+    background-color: blue;
+    text-decoration: overline;
+}
+
